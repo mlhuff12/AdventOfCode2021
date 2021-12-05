@@ -22,7 +22,6 @@ namespace AdventOfCode2021
         private static Dictionary<string, int> MapCoordinates(int part, List<List<string>> coordinates)
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
-            // Do I need segment class?
             foreach (List<string> segmentCoord in coordinates)
             {
                 int x1, x2, y1, y2;
