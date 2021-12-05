@@ -1,9 +1,5 @@
-﻿using AdventOfCode2021.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AdventOfCode2021.Helpers.cs;
+using AdventOfCode2021.Models;
 
 namespace AdventOfCode2021
 {
@@ -16,11 +12,7 @@ namespace AdventOfCode2021
 
         private static int GetWinningScore(int boardSize, int part)
         {
-            //List<string> inputFile = File.ReadLines("Input\\Day4Sample.txt").ToList();
-            List<string> inputFile = File.ReadLines("Input\\Day4.txt").ToList();
-            //List<string> inputFile = File.ReadLines("Input\\George.txt").ToList();
-
-
+            List<string> inputFile = FileUtil.GetFile("Input\\Day4.txt");
 
             List<int> balls = inputFile[0].Split(",").Select(int.Parse).ToList();
             inputFile.RemoveAt(0);
