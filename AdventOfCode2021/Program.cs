@@ -15,5 +15,8 @@ Console.WriteLine("Day 4 - Part 2 = " + Day4.Process(2));
 Console.WriteLine();
 Console.WriteLine("Day 5 - Part 1 = " + Day5.Process(1));
 Console.WriteLine("Day 5 - Part 2 = " + Day5.Process(2));
+Console.WriteLine();
+Console.WriteLine("Day 6 - Part 1 = " + Day6.Process(80));
+Console.WriteLine("Day 6 - Part 1 = " + Day6.Process(256));
 Console.WriteLine("Press enter to close ...");
 Console.ReadLine();
